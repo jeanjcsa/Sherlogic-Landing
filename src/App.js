@@ -168,14 +168,14 @@ function App() {
               </div>
               <div className="about-content">
                 <div className="about-image">
-                  <img src={profilePhoto}></img>
+                  <img alt="" src={profilePhoto}></img>
                   <h1>Marcelo Bohler</h1>
                   <div className="social-medias">
-                    <a href="#">
+                    <a>
                       <UilFacebook color="#630092"></UilFacebook>
                     </a>
 
-                    <a href="#">
+                    <a>
                       <UilInstagram color="#630092"></UilInstagram>
                     </a>
                   </div>
@@ -271,7 +271,7 @@ function App() {
           <div className="gradient-box-1"></div>
         </div>
         <div className="content-1" id="sobre">
-          <img src={purpleBrain}></img>
+          <img alt="" src={purpleBrain}></img>
           <div className="content-text translate-text">
             <h2>SOBRE O CURSO</h2>
             <h1>
@@ -307,7 +307,7 @@ function App() {
           <div className="grid-cards translate-text">
             <div className="card">
               <div className="card-icon">
-                <img src={feature1}></img>
+                <img alt="" src={feature1}></img>
               </div>
               <div className="card-text">
                 <h2>
@@ -318,7 +318,7 @@ function App() {
             </div>
             <div className="card">
               <div className="card-icon">
-                <img src={feature2}></img>
+                <img alt="" src={feature2}></img>
               </div>
               <div className="card-text">
                 <h2>
@@ -329,7 +329,7 @@ function App() {
             </div>
             <div className="card">
               <div className="card-icon">
-                <img src={feature3}></img>
+                <img alt="" src={feature3}></img>
               </div>
               <div className="card-text">
                 <h2>
@@ -341,7 +341,7 @@ function App() {
             </div>
             <div className="card">
               <div className="card-icon">
-                <img src={feature4}></img>
+                <img alt="" src={feature4}></img>
               </div>
               <div className="card-text">
                 <h2>
@@ -356,22 +356,22 @@ function App() {
 
         <div className="content-3">
           <div>
-            <img src={courseFeature1}></img>
+            <img alt="" src={courseFeature1}></img>
             <h1>50+</h1>
             <h2>Materiais</h2>
           </div>
           <div>
-            <img src={courseFeature2}></img>
+            <img alt="" src={courseFeature2}></img>
             <h1>200+</h1>
             <h2>Horas Aula</h2>
           </div>
           <div>
-            <img src={courseFeature3}></img>
+            <img alt="" src={courseFeature3}></img>
             <h1>500+</h1>
             <h2>Clientes Felizes</h2>
           </div>
           <div>
-            <img src={courseFeature4}></img>
+            <img alt="" src={courseFeature4}></img>
             <h1>10+</h1>
             <h2>Certificações</h2>
           </div>
@@ -439,7 +439,12 @@ function App() {
         </div>
 
         <div className="content-6" id="clientes">
-          <img className="half-face" id="face-one" src={halfFaceOne}></img>
+          <img
+            alt=""
+            className="half-face"
+            id="face-one"
+            src={halfFaceOne}
+          ></img>
           <div className="center-block">
             <h1>
               O QUE DIZEM <br></br>
@@ -451,7 +456,7 @@ function App() {
             </div>
             <div className="comment-block">
               <div className="comment-video">
-                <img src={thumb}></img>
+                <img alt="" src={thumb}></img>
               </div>
               <div className="comment-text">
                 <h3>
@@ -459,7 +464,7 @@ function App() {
                   dolor sit amet.
                 </h3>
                 <div className="user-block">
-                  <img src={profile}></img>
+                  <img alt="" src={profile}></img>
                   <h2>
                     Amarildo Amaral<br></br>
                     <span>amarildoamaral@gmail.com</span>
@@ -468,7 +473,12 @@ function App() {
               </div>
             </div>
           </div>
-          <img className="half-face" id="face-two" src={halfFaceTwo}></img>
+          <img
+            alt=""
+            className="half-face"
+            id="face-two"
+            src={halfFaceTwo}
+          ></img>
         </div>
 
         <div className="pricing" id="comprar">
@@ -674,7 +684,7 @@ function App() {
             <button>SABER MAIS</button>
             <div className="card mobile-type">
               <div className="card-icon">
-                <img src={feature1}></img>
+                <img alt="" src={feature1}></img>
               </div>
               <div className="card-text">
                 <h2>
@@ -685,7 +695,7 @@ function App() {
             </div>
             <div className="card mobile-type">
               <div className="card-icon">
-                <img src={feature2}></img>
+                <img alt="" src={feature2}></img>
               </div>
               <div className="card-text">
                 <h2>
@@ -696,7 +706,7 @@ function App() {
             </div>
             <div className="card mobile-type">
               <div className="card-icon">
-                <img src={feature3}></img>
+                <img alt="" src={feature3}></img>
               </div>
               <div className="card-text">
                 <h2>
@@ -708,7 +718,7 @@ function App() {
             </div>
             <div className="card mobile-type">
               <div className="card-icon">
-                <img src={feature4}></img>
+                <img alt="" src={feature4}></img>
               </div>
               <div className="card-text">
                 <h2>
@@ -728,15 +738,15 @@ function App() {
           <h2>MÓDULOS E AULAS</h2>
           <div class="container">
             <div class="product-card">
-              <img src={carousel1} alt="" />
+              <img alt="" src={carousel1} />
             </div>
 
             <div class="product-card">
-              <img src={carousel2} alt="" />
+              <img alt="" src={carousel2} />
             </div>
 
             <div class="product-card">
-              <img src={carousel3} alt="" />
+              <img alt="" src={carousel3} />
             </div>
           </div>
         </div>
@@ -787,7 +797,7 @@ function App() {
               </div>
               <div className="comment-block">
                 <div className="comment-video">
-                  <img src={thumb}></img>
+                  <img alt="" src={thumb}></img>
                 </div>
                 <div className="mobile-comment">
                   <h3>
@@ -795,7 +805,7 @@ function App() {
                     dolor sit amet.
                   </h3>
                   <div className="user-block">
-                    <img src={profile}></img>
+                    <img alt="" src={profile}></img>
                     <h2>
                       Amarildo Amaral<br></br>
                       <span>amarildoamaral@gmail.com</span>
