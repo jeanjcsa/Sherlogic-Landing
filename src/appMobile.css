@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/tox-typewriter');
+
+:root{
+  --purple-standard: #630092;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 0;
+  z-index: 0;
+}
+
+.mobile-container{
+    background-color: black;
+    min-height: 100vh ;
+    overflow-x: hidden;
+}
+
+.mobile-nav{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(16,0,23);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 34%, rgb(19, 0, 28) 100%);
+    box-shadow: 0 0 10px #470068 ;
+    z-index: 10;
+}
+
+.mobile-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.mobile-logo h1{
+    font-family: 'Tox Typewriter', sans-serif;
+    color: var(--purple-standard);
+    font-weight: 300;
+}
+
+.mobile-logo h2{
+    font-size: 0.7rem;
+    font-weight: 300;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+
+.mobile-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hamburger-menu{
+    height: 70%;
+    aspect-ratio: 1/1;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-video-header{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.8;
+  }
+
+.mobile-header-info{
+    z-index: 3;
+    width: 90vw;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(10px);
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #210030;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.mobile-header h2{
+    font-size: 0.9rem;
+}
+
+.mobile-header-info h1{
+    font-size: 1.1rem;
+}
+
+.mobile-header-info h3{
+    max-width: 80%;
+    text-align: justify;
+    font-weight: 300;
+}
+
+
+.mobile-section-1{
+    height: 40vh;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 34%, rgb(19, 0, 29) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-section-1 h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--purple-standard);
+}
+
+.mobile-section-1 h1{
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: 'Tox Typewriter', sans-serif;;
+}
+
+.mobile-section-1 video{
+    width: 80vw;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px #630092;
+}
+
+.mobile-section-2{
+    min-height: 70vh;
+    height: fit-content;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 34%, rgb(19, 0, 29) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-card-2{
+    width: 80vw;
+    min-height: 30vh;
+    height: fit-content;
+    padding: 2rem 0;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #380056;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.mobile-section-2 h3{
+    font-weight: 300;
+    font-size: 1rem;
+    width: 70vw;
+    text-align: justify;
+    margin-bottom: 2rem;
+    opacity: 0.7;
+    margin: auto;
+}
+
+.mobile-section-2 h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--purple-s\andard);
+    margin-top: 1rem;
+}
+
+.mobile-section-2 h1{
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: 'Tox Typewriter', sans-serif;;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.mobile-section-2 h1::after{
+    display: block;
+    content: "";
+    width: 50vw;
+    height: 2px;
+    background-color: white;
+    margin: 1rem auto;
+}
+
+.mobile-section-2 button{
+    width: 50vw;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #630092;
+}
+
+.mobile-section-3{
+    min-height: 50vh;
+    height: fit-content;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 34%, rgb(19, 0, 29) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.mobile-card-2{
+    width: 80vw;
+    min-height: 30vh;
+    height: fit-content;
+    padding: 2rem 0;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #380056;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.mobile-section-3 h3{
+    font-weight: 300;
+    font-size: 1rem;
+    width: 70vw;
+    text-align: justify;
+    margin-bottom: 2rem;
+    opacity: 0.7;
+}
+
+.mobile-section-3 h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--purple-s\andard);
+    margin-top: 1rem;
+}
+
+.mobile-section-3 h1{
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: 'Tox Typewriter', sans-serif;
+    text-align: center;
+}
+
+.mobile-section-3 h1::after{
+    display: block;
+    content: "";
+    width: 50vw;
+    height: 2px;
+    background-color: white;
+    margin: 1rem auto;
+}
+
+.mobile-section-3 button{
+    width: 50vw;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #630092;
+}
+
+.mobile-type{
+    width: 50vw;
+    margin: 1.5rem;
+}
+
+.mobile-section-4{
+    height: 25vh;
+    width: 100vw;
+    background: rgb(0,0,0);
+   background: linear-gradient(98deg, rgba(0,0,0,1) 0%, rgb(43, 0, 63) 100%);
+}
+
+.mobile-section-5{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+.mobile-section-5 h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Tox Typewriter', sans-serif;
+    font-weight: 300;
+}
+
+h1 span{
+    color: #630092;
+    font-family: 'Tox Typewriter', sans-serif;
+}
+
+.mobile-section-5 h2{
+    color: #a200ed;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    letter-spacing: 2px;
+}
+
+.mobile-section-5 h2::after{
+    content: "";
+    display: block;
+    width: 33vw;
+    height: 2px;
+    background-color: white;
+    margin: 3px auto;
+}
+
+.mobile-section-6{
+    min-height: 70vh;
+    height: fit-content;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 34%, rgb(19, 0, 29) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-card-2{
+    width: 80vw;
+    min-height: 30vh;
+    height: fit-content;
+    padding: 2rem 0;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #380056;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.mobile-section-6 h3{
+    font-weight: 300;
+    font-size: 1rem;
+    width: 70vw;
+    text-align: justify;
+    margin: 2rem 0;
+    opacity: 0.7;
+}
+
+.mobile-section-6 h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--purple-s\andard);
+    margin-top: 1rem;
+}
+
+.mobile-section-6 h1{
+    width: 70vw;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: 'Tox Typewriter', sans-serif;;
+}
+
+.mobile-section-6 h1::after{
+    display: block;
+    content: "";
+    width: 50vw;
+    height: 2px;
+    background-color: white;
+    margin: 1rem auto;
+}
+
+.mobile-section-6 button{
+    width: 50vw;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #630092;
+}
+
+.mobile-section-6 ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+.mobile-section-6 ul li{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.mobile-section-7{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 34%, rgb(19, 0, 29) 100%);
+}
+
+.head-skull-bg{
+    width: 50vw;
+    height: 80vh;
+    background-image: url("./Assets/halftwo.png");
+    transform: translateX(-25vw);
+}
+
+.mobile-section-7 .center-block{
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-section-7 h1{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.mobile-comment{
+    width: 80vw;
+    background: rgb(55,0,82);
+    background: linear-gradient(180deg, rgba(55,0,82,1) 0%, rgba(16,0,23,1) 98%);
+    margin: auto;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mobile-inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-inner video{
+    height: auto;
+    width: 90vw;
+}
+
+.mobile-inner .course-description{
+    width: 90vw;
+}
+
+.pricing-mobile{
+    height: fit-content;
+}
+
+.pricing-mobile h2{
+    font-size: 1rem;
+}
+
+.pricing-mobile h1{
+    text-align: center;
+}
+
+.mobile-contato{
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+.mobile-contato .block{
+    width: 90vw;
+    gap: 1rem;
+}
+
+.nav-mobile-box{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 70vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 50;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-mobile-box ul{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-around;
+    transition: all 1s;
+    transform: translateX(0);
+}
+
+.nav-mobile-box a{
+    font-size: 1.5rem;
+}
+
+.nav-mobile-box-hidden{
+    transform: translateX(-100%);
+    transition: all 1s;
+}
